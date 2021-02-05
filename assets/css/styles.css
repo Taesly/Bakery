@@ -1,0 +1,41 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url("../../assets/img/background.jpg") center / cover no-repeat;
+  margin: 0px;
+  margin-top: 22px;
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+.container.site-section {
+  text-align: center;
+  padding: 70px;
+}
+
+#welcome {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #343a40;
+  background-color: yellow;
+  border-color: transparent;
+}
+
+.col-md-4.item p {
+  color: rgb(108,117,122);
+}
+
